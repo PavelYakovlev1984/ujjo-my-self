@@ -1,0 +1,43 @@
+.hero {
+  &__block {
+    margin-top: -1px;
+    display: flex;
+  }
+
+  &__left {
+    width: 50%;
+    border-right: 1px solid var(--dark-color);
+  }
+
+  &__title {
+    padding: 20px 80px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--dark-color);
+  }
+
+  &__phrase {
+    padding: 24px 0;
+  }
+
+  &__img {
+    display: block;
+  }
+
+  &__ujjo {
+    padding: 20px;
+  }
+
+  &__right {
+    width: 50%;
+  }
+
+  &__image-2 {
+    padding: 20px;
+  }
+}
