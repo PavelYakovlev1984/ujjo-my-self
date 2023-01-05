@@ -33,10 +33,17 @@ a {
 
 .site-container {
   overflow: hidden; // если используете на сайте position: sticky - уберите эту настройку
+
+  @include big-desktop {
+    min-width: 1430px;
+  }
+
 }
 
 .is-hidden {
-  display: none !important; /* stylelint-disable-line declaration-no-important */
+  display: none !important;
+
+  /* stylelint-disable-line declaration-no-important */
 }
 
 .btn-reset {
@@ -104,4 +111,8 @@ a {
 
 .page--ios .dis-scroll {
   position: relative;
+}
+
+.flex {
+  display: flex;
 }

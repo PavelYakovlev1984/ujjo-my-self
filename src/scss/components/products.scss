@@ -1,0 +1,43 @@
+.products {
+  &__top {
+    margin-top: -1px;
+    padding: 60px 30px;
+    justify-content: space-between;
+    align-items: center;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 225px;
+      height: 156px;
+      background-image: url("../img/products-decor-1.svg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      width: 225px;
+      height: 156px;
+      background-image: url("../img/products-decor-2.svg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &__title {
+    margin: 0 auto;
+    padding: 70px 0;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 73px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--dark-color);
+    max-width: 845px;
+  }
+}
