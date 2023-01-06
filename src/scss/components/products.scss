@@ -28,6 +28,15 @@
     }
   }
 
+  &__list {
+    justify-content: space-between;
+    gap: 23px;
+  }
+
+  &__item {
+    width: calc(50% - 13px);
+  }
+
   &__title {
     margin: 0 auto;
     padding: 70px 0;
@@ -39,5 +48,14 @@
     text-transform: uppercase;
     color: var(--dark-color);
     max-width: 845px;
+  }
+
+  &__content {
+    padding: 20px;
+  }
+
+  &__phrase {
+    border-top: transparent;
+    padding: 24px 0;
   }
 }
