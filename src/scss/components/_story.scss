@@ -1,6 +1,6 @@
 .story {
   &__block {
-    margin-top: -1px;
+    border-bottom: transparent;
     display: flex;
     border-top: transparent;
   }
@@ -8,6 +8,10 @@
   &__left {
     width: 50%;
     border-right: 1px solid var(--dark-color);
+  }
+
+  &__img {
+    display: block;
   }
 
   &__right {

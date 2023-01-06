@@ -1,6 +1,9 @@
 .banner {
   &__block {
-    display: block;
     margin-top: -180px;
+  }
+
+  &__img {
+    display: block;
   }
 }
